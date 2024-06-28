@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exelanz - Your IT Department in The Cloud</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="lib/Speach_to_text/styles.css">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">Exelanz</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="About_us.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                    </div>
+                    <a href="#container-Service" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-primary hero-header">
+                <div class="container my-5 py-5 px-lg-5">
+                    <div class="row g-5 py-5">
+                        <div class="col-12 text-center">
+                            <h1 class="text-white animated slideInDown"><i class="fa fas fa-microphone-alt fa-2x"></i></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- page content Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container px-lg-5 text-center">
+                <div class="row justify-content-center" id="container-Service">
+                    <div class="col-lg-10">
+
+                         <div class="container">
+                              <!-- <h1>Speach to Text</h1> -->
+
+                              <div class="message" id="message"></div>
+                                <form class="form-control">
+                                    <h1>Voice to Text</h1>
+                                    <p>Turn your voice into text seamlessly. Use our voice-to-text feature to record your thoughts, convert them into text, and download the document. Supports multiple languages for your convenience.</p>
+                                    <select class="rounded-pill" id="language-select">
+                                        <option value="en-IN">English (India)</option>
+                                        <option value="hi-IN">Hindi (India)</option>
+                                        <option value="gu-IN">Gujarati (India)</option>
+                                        <option value="kn-IN">Kannada (India)</option>
+                                        <option value="ml-IN">Malayalam (India)</option>
+                                        <option value="mr-IN">Marathi (India)</option>
+                                        <option value="ta-IN">Tamil (India)</option>
+                                        <option value="te-IN">Telugu (India)</option>
+                                        <option value="bn-IN">Bengali (India)</option>
+
+                                        <option value="af-ZA">Afrikaans (South Africa)</option>
+                                        <option value="ar-SA">Arabic (Saudi Arabia)</option>
+                                        <option value="az-AZ">Azerbaijani (Azerbaijan)</option>
+                                        <option value="bg-BG">Bulgarian (Bulgaria)</option>
+                                        <option value="ca-ES">Catalan (Spain)</option>
+                                        <option value="cs-CZ">Czech (Czech Republic)</option>
+                                        <option value="da-DK">Danish (Denmark)</option>
+                                        <option value="de-DE">German (Germany)</option>
+                                        <option value="el-GR">Greek (Greece)</option>
+                                        <option value="en-AU">English (Australia)</option>
+                                        <option value="en-CA">English (Canada)</option>
+                                        <option value="en-NZ">English (New Zealand)</option>
+                                        <option value="en-ZA">English (South Africa)</option>
+                                        <option value="en-GB">English (United Kingdom)</option>
+                                        <option value="en-US">English (United States)</option>
+                                        <option value="es-AR">Spanish (Argentina)</option>
+                                        <option value="es-BO">Spanish (Bolivia)</option>
+                                        <option value="es-CL">Spanish (Chile)</option>
+                                        <option value="es-CO">Spanish (Colombia)</option>
+                                        <option value="es-CR">Spanish (Costa Rica)</option>
+                                        <option value="es-EC">Spanish (Ecuador)</option>
+                                        <option value="es-SV">Spanish (El Salvador)</option>
+                                        <option value="es-ES">Spanish (Spain)</option>
+                                        <option value="es-US">Spanish (United States)</option>
+                                        <option value="es-GT">Spanish (Guatemala)</option>
+                                        <option value="es-HN">Spanish (Honduras)</option>
+                                        <option value="es-MX">Spanish (Mexico)</option>
+                                        <option value="es-NI">Spanish (Nicaragua)</option>
+                                        <option value="es-PA">Spanish (Panama)</option>
+                                        <option value="es-PY">Spanish (Paraguay)</option>
+                                        <option value="es-PE">Spanish (Peru)</option>
+                                        <option value="es-PR">Spanish (Puerto Rico)</option>
+                                        <option value="es-DO">Spanish (Dominican Republic)</option>
+                                        <option value="es-UY">Spanish (Uruguay)</option>
+                                        <option value="es-VE">Spanish (Venezuela)</option>
+                                        <option value="eu-ES">Basque (Spain)</option>
+                                        <option value="fa-IR">Persian (Iran)</option>
+                                        <option value="fi-FI">Finnish (Finland)</option>
+                                        <option value="fr-CA">French (Canada)</option>
+                                        <option value="fr-FR">French (France)</option>
+                                        <option value="gl-ES">Galician (Spain)</option>
+                                        <option value="hr-HR">Croatian (Croatia)</option>
+                                        <option value="hu-HU">Hungarian (Hungary)</option>
+                                        <option value="id-ID">Indonesian (Indonesia)</option>
+                                        <option value="is-IS">Icelandic (Iceland)</option>
+                                        <option value="it-IT">Italian (Italy)</option>
+                                        <option value="ja-JP">Japanese (Japan)</option>
+                                        <option value="ko-KR">Korean (South Korea)</option>
+                                        <option value="lt-LT">Lithuanian (Lithuania)</option>
+                                        <option value="lv-LV">Latvian (Latvia)</option>
+                                        <option value="mk-MK">Macedonian (North Macedonia)</option>
+                                        <option value="ms-MY">Malay (Malaysia)</option>
+                                        <option value="nb-NO">Norwegian Bokmål (Norway)</option>
+                                        <option value="nl-NL">Dutch (Netherlands)</option>
+                                        <option value="pl-PL">Polish (Poland)</option>
+                                        <option value="pt-BR">Portuguese (Brazil)</option>
+                                        <option value="pt-PT">Portuguese (Portugal)</option>
+                                        <option value="ro-RO">Romanian (Romania)</option>
+                                        <option value="ru-RU">Russian (Russia)</option>
+                                        <option value="sk-SK">Slovak (Slovakia)</option>
+                                        <option value="sl-SI">Slovenian (Slovenia)</option>
+                                        <option value="sr-RS">Serbian (Serbia)</option>
+                                        <option value="su-ID">Sundanese (Indonesia)</option>
+                                        <option value="sv-SE">Swedish (Sweden)</option>
+                                        <option value="sw-KE">Swahili (Kenya)</option>
+                                        <option value="th-TH">Thai (Thailand)</option>
+                                        <option value="tr-TR">Turkish (Turkey)</option>
+                                        <option value="uk-UA">Ukrainian (Ukraine)</option>
+                                        <option value="ur-PK">Urdu (Pakistan)</option>
+                                        <option value="vi-VN">Vietnamese (Vietnam)</option>
+                                        <option value="zh-CN">Chinese (Simplified)</option>
+                                        <option value="zh-HK">Chinese (Hong Kong)</option>
+                                        <option value="zh-TW">Chinese (Traditional)</option>
+
+
+                                    </select>
+                                    <textarea disabled></textarea>
+                                    <button class="rounded-pill" type="submit">Speak!</button>
+                                    <button class="rounded-pill" type="button" id="stop-btn">Stop</button>
+                                    <button class="rounded-pill" type="button" id="reset-btn">Reset</button>
+                                    <button class="rounded-pill" type="button" id="download-btn">Download as DOC</button>
+                                </form>
+                                  
+                         </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- page content ends -->
+        
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4"><span></span></p>
+                        <a class="btn btn-link" href="">About Us</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4"><span></span></p>
+                        <a class="btn btn-link" href="TermsCondition.html">Terms & Condition</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4"><span></span></p>
+                        <a class="btn btn-link" href="PrivacyPolicy.html">Privacy Policy</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4"><span></span></p>
+                        <a class="btn btn-link" href="">All Products</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">free tools</a>, All Right Reserved. 
+							Designed By<a class="border-bottom" href="https://htmlcodex.com">Jyoti Ranjan Majumdar</a><br><br> 
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/Speach_to_text/main.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

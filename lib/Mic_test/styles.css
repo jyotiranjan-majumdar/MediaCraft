@@ -1,0 +1,37 @@
+body {
+    /* font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5; */
+}
+
+.container {
+    text-align: center;
+}
+
+/* h1 {
+    margin-bottom: 20px;
+} */
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    flex: 1;
+	background: linear-gradient(to bottom right, #9b5de5, #6222cc);
+	color: #ffffff!important;
+	
+    margin: 15px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.timer {
+    font-size: 24px;
+    margin-bottom: 20px;
+}

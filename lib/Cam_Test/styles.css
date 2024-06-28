@@ -1,0 +1,30 @@
+
+ 
+ .camera-controls {
+     margin-bottom: 20px;
+ }
+ 
+ .camera-controls label {
+     margin-right: 10px;
+ }
+ 
+ .camera-output {
+     position: relative;
+ }
+ 
+ #video {
+     width: 100%;
+     height: auto;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+ }
+ 
+ #canvas {
+     display: none;
+ }
+ 
+ .camera-details {
+     margin-top: 20px;
+     text-align: left;
+ }
+ 
